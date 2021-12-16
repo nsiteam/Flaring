@@ -11,7 +11,7 @@ import java.io.File
 
 fun main() {
     val client = KMongo.createClient()
-    val db = client.getDatabase("nsi")
+    val db = client.getDatabase("flaring")
     val col = db.getCollection<VnfEvent>()
 
     val input = File("data/shp/ne_110m_admin_0_countries.shp")

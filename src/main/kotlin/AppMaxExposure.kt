@@ -39,7 +39,7 @@ data class LocationDate(val d: LocalDate, val lat: Double, val lon: Double)
 fun main() {
     val CM_Per_MW = 38279.0  // Cubic meters of methane for one megawatt
     val client = KMongo.createClient()
-    val db = client.getDatabase("nsi")
+    val db = client.getDatabase("flaring")
     val colVnf = db.getCollection<VnfEvent>()
     val colGfs = db.getCollection<Gfs>()
     val crs = CRS.decode("EPSG:4326")
