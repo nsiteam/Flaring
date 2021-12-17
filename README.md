@@ -16,3 +16,10 @@ Additional References
 - [Gaussian Plume Model](https://www.eng.uwo.ca/people/esavory/Gaussian%20plumes.pdf)
 - [Emission/Combustion/Gas Composition Details](https://www.sciencedirect.com/science/article/pii/S1018363915000203)
 - [Flaring Volume Data by Country](https://thedocs.worldbank.org/en/doc/1f7221545bf1b7c89b850dd85cb409b0-0400072021/original/WB-GGFR-Report-Design-05a.pdf)
+
+# Working with the MongoDB
+While users with remote-sensing expertise may wish to work with the raw VNF and GFS sources, downloading the *mongoDB.tar.gz* and working with the data objects is an easy way to get started exploring the flaring event data.  After installing MongoDB and downloading the tar.gz file, you do the following to create the *flare* db
+{
+tar -xf *mongoDB.tar.gz  // will extract into a default MongoDB dump directory
+mongorestore dump/
+}
