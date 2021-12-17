@@ -19,7 +19,8 @@ Additional References
 
 # Working with the MongoDB
 While users with remote-sensing expertise may wish to work with the raw VNF and GFS sources, downloading the *mongoDB.tar.gz* and working with the data objects is an easy way to get started exploring the flaring event data.  After installing MongoDB and downloading the tar.gz file, you do the following to create the *flare* db
+
 <pre><code>
-tar -xf *mongoDB.tar.gz  // will extract into a default MongoDB dump directory
-mongorestore dump/
+$ tar -xf *mongoDB.tar.gz
+$ mongorestore dump/
 </pre></code>
