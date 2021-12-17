@@ -1,5 +1,6 @@
 # Analysis of Health Effects of Natural Gas Flaring
 
+This repo was developed in ![VS Code](data/images/vscode.jpeg) using Gradle for dependency management.
 
 ![Data Model](data/images/dataflow.png)
 
